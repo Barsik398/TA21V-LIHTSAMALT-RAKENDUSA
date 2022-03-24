@@ -108,6 +108,7 @@ if next_position == "9":
         elif next_position == "9":
             print(". X .")
             print(". . .")
-            print(". . o")
+            print(". . o.")
+
 
 
