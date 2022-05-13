@@ -8,7 +8,7 @@ def run():
 
     pygame.init()
     screen = pygame.display.set_mode((1024,672))
-    pygame.display.set_caption('nigger')
+    pygame.display.set_caption('pygame3')
     bg_color = (0, 0, 0)
     image = pygame.image.load('deagle1.jpg')
     screen.blit(image, (100, 100))
