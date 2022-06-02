@@ -7,6 +7,10 @@ warning_text="hoiatusteate taituvus % peab olema seadistatav"
 def warning():
     if mem.percent > 20:
         print(warning_text)
+        
+warning()
+
+
 with open('info.txt', 'w') as f:
     f.writelines(warning_text)
 
